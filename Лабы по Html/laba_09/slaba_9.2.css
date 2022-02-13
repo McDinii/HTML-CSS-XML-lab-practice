@@ -1,0 +1,38 @@
+ul{
+    margin:10%;
+    padding:0;
+    list-style-type:none;
+}
+li.menu{
+    background: #fff44f;
+    width: 40%;
+    position: relative;
+    border: #2196f3 1px solid;
+    padding: 10%;
+}
+li.ac{
+    float: left;
+    position: absolute;
+    padding: 0;
+    box-sizing: border-box;
+}
+.t3_1 li{
+    display: none;
+    padding: 0;
+}
+.t3_1 a{
+    display: none;
+    border: #2196f3 2px dashed;
+    color: black;
+    position: relative;
+    left: 0;
+    padding: 10%;
+    text-decoration: none;
+    background: coral;
+    width: 100%;
+}
+.t3:hover .t3_1 li{
+    background: white;
+    display: block;
+}
+.t3:hover .t3_1 a{ display: inline-block;}

@@ -1,0 +1,62 @@
+.video,#vvv{
+    all:unset;
+}
+.video_M {
+
+    width: 300px;
+    height: 200px;
+}
+
+.video{
+
+}
+#vvv {
+
+}
+    .menu li {
+
+        list-style: none;
+        position: relative;
+        max-width: 100px;
+    }
+    nav{
+
+    }
+    .menu a {
+        border: 2px solid yellow;
+        max-width: 200px;
+        text-decoration: none;
+    }
+
+
+    .menu__list li:hover .sub-menu__list{
+        display: block;
+
+    }
+
+
+    .menu__link {
+        color: red;
+    }
+
+    .sub-menu__list {
+
+
+        display: none;
+        min-width: 110px;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+
+
+    .sub-menu__list li {
+        margin: 5px;
+    }
+
+    .sub-menu__link {
+        color: black;
+        display: inline-block;
+        padding: 5px 10px;
+    }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Text</title>
+    <style>
+
+        h1{
+            margin-bottom: 0;
+           font-family: 'Caveat',serif;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: orange -5px 5px,purple 5px -5px ;
+            font-size: 45px;
+            text-transform: capitalize;
+        }
+        h2{
+            text-align: left;
+            font-family: 'Exo2',serif;
+            margin-top: 0.2rem;
+            margin-bottom: 1.2em;
+            text-indent: 25px;
+        }
+        p {
+            font-family: 'Comfortaa',serif;
+            font-size:20px;
+            text-align: justify;
+            margin-top: 0;
+            margin-bottom:0;
+            line-height: 200%;
+
+        }
+        p::first-letter{
+            margin-left: 25px;
+            font-weight: bold;
+            font-size: 45px;
+            color: ghostwhite;
+            background-color: hsla(275, 100%, 10%, 1);
+        }
+        ol li {
+            list-style-type: none;
+            counter-increment: item;
+        }
+            ol li:before{
+                content: counter(item, upper-roman)"Мы римляне ";
+                color:blue;
+            }
+
+    </style>
+</head>
+<body>
+<h1 >Здравствуйте, я H1</h1 >
+<h2>Привет, а я H2.1</h2>
+
+<p>Я P1 Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis</p>
+<p> А Я P2 Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis</p>
+<h2>Ну, а Я H2.2</h2>
+<p> Хэй, а Я P3 Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis Denis</p>
+<h2 style="margin-bottom: 0">DENIS</h2>
+<ol style=" font-family: 'Comfortaa',serif;
+            font-size:20px;">
+    <li> Denis </li>
+    <li>dEnis</li>
+    <li>deNis</li>
+    <li>denIs</li>
+    <li>deniS</li>
+</ol>
+</body>
+</html>

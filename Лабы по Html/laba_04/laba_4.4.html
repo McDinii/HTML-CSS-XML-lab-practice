@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="post">
+    <h3>Регистрация постоянного клиента</h3>
+    <div><label for="last_name" class="label">Фамилия:</label><input type="text" id="last_name"></div>
+    <div><label for="first_name" class="label">Имя:</label>
+        <input type="text" id="first_name"></div>
+    <div><label for="patronymic" class="label">Отчество:</label>
+        <input type="text" id="patronymic"></div>
+    <div>
+        <label for="age" class="label">Ваш возраст:</label>
+        <input type="text" id="age">
+    </div>
+    <div><span class="label">Пол:</span>
+        <input type="checkbox" id="men"><label for="men">мужской</label>
+        <input type="checkbox" id="women"><label for="women">женский</label>
+    </div>
+    <div><label for="email" class="label">Email:</label><input type="email" id="email">
+    </div>
+    <div><label for="country" class="label">Страна проживания:</label><input type="text" id="country">
+    </div>
+    <div><label for="place" class="label">Откуда вы узнали о наc?</label><select id="place">
+        <option>Выберите:</option>
+        <option>Из Инсты</option>
+        <option>От сына маминой подруги</option>
+        <option>Другое</option>
+    </select>
+    </div>
+    <div>
+        <label for="date" class="label">Дата заполнения</label>
+        <input type="date" id="date">
+    </div><div>
+        <input class="input" type="submit" value="Регистрация" >
+        <input  class="input" type="reset" value="Отмена" >
+    </div>
+
+</form>
+</body>
+</html>

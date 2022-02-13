@@ -1,0 +1,19 @@
+ul.nav {
+    list-style-type: none
+}
+ul.nav a{
+    display: block;
+}
+ul.nav .task1:link{
+    text-decoration: none;
+    color: red;
+}
+ul.nav .task2:visited{
+    color: #8b0000;
+}
+ul.nav .task3:hover{
+    color: green;
+}
+ul.nav .task4:active{
+    color: rgb(184, 134, 11);
+}

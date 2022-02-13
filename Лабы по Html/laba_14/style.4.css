@@ -1,0 +1,29 @@
+.col-1 {
+  stroke: black;
+  fill: #8C0088;
+  stroke-linecap: square; }
+
+.col-2 {
+  stroke: tomato;
+  fill: #aa4fff;
+  stroke-linecap: round; }
+
+.col-3 {
+  stroke: #aa4fff;
+  fill: greenyellow;
+  stroke-linecap: butt; }
+
+.col-4 {
+  stroke: #aa4fff;
+  fill: #ffff00;
+  stroke-linecap: square; }
+
+.col-5 {
+  stroke: blue;
+  stroke-width: 5px;
+  fill: #ff7f50; }
+
+* {
+  margin: 0; }
+
+/*# sourceMappingURL=style.4.css.map */

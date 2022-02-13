@@ -1,0 +1,10 @@
+.t7{
+    color : red;
+    font-size: 70px;
+    text-align: center;
+    animation: t77 linear 3s infinite alternate-reverse ;
+}
+@keyframes t77  {
+    0%{opacity: 0}
+    100%{opacity: 0.8}
+}

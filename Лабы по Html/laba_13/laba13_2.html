@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13.2</title>
+</head>
+<body>
+<div style="text-align: right">
+    <p><span style="color: orangered; font-size: x-large" id="name"></span></p>
+    <p><span style="color: yellow; font-size: x-large" id="family"></span></p>
+    <p><span style="color: yellowgreen; font-size: x-large" id="faculty"></span></p>
+    <p><span style="color: blue; font-size: x-large" id="age"></span></p>
+</div>
+  <script>
+    txt = "<student>";
+    txt = txt + "<name>Name: IVan</name>";
+    txt = txt + "<family>Family: FIT</family>";
+    txt = txt + "<faculty>Faculty: FIT,BSTU</faculty>";
+    txt = txt + "<age>Age: 20 years old </age>";
+    txt = txt + "</student>";
+    if(window.DOMParser)
+    {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt,"text/xml");
+    }
+    else{
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+    }
+    document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    document.getElementById("family").innerHTML = xmlDoc.getElementsByTagName("family")[0].childNodes[0].nodeValue;
+    document.getElementById("faculty").innerHTML = xmlDoc.getElementsByTagName("faculty")[0].childNodes[0].nodeValue;
+    document.getElementById("age").innerHTML = xmlDoc.getElementsByTagName("age")[0].childNodes[0].nodeValue;
+
+  </script>
+
+</body>
+</html>

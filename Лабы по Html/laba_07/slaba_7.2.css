@@ -1,0 +1,102 @@
+
+img{ width:100%}
+#slider {
+    background: #000;
+    border: 5px solid #eaeaea;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    height: 320px;
+    width: 680px;
+    margin: 40px auto 0;
+    overflow: visible;
+    position: relative;
+}
+/* скрываем все за пределами слайдера */
+#mask {
+    overflow: hidden;
+    height: 320px;
+}
+/* список изображений */
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#slider li {
+    width: 680px;  /* ширина изображения */
+    height: 320px; /* высота изображения */
+    position: absolute;
+    top: -325px;    /* начальная позиция - за пределами слайдера */
+    list-style: none;
+}
+#slider li.firstanimation {
+    animation: cycle 25s linear infinite;
+}
+
+#slider li.secondanimation {
+    animation: cycletwo 25s linear infinite;
+}
+
+#slider li.thirdanimation {
+    animation: cyclethree 25s linear infinite;
+}
+
+#slider li.fourthanimation {
+    animation: cyclefour 25s linear infinite;
+}
+
+#slider li.fifthanimation {
+    animation: cyclefive 25s linear infinite;
+}
+/* анимация */
+@keyframes cycle {
+    0%  { top: 0px; } /* When you start the slide, the first image is already visible */
+    4%  { top: 0px; } /* Original Position */
+    16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
+    20% { top: 325px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+    21% { top: -325px; opacity: 0; z-index: -1; } /* Return to Original Position */
+    92% { top: -325px; opacity: 0; z-index: 0; }
+    96% { top: -325px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+    100%{ top: 0px; opacity: 1; }
+}
+
+@keyframes cycletwo {
+    0%  { top: -325px; opacity: 0; } /* Original Position */
+    16% { top: -325px; opacity: 0; }/* Starts moving after 16% to this position */
+    20% { top: 0px; opacity: 1; }
+    24% { top: 0px; opacity: 1; }  /* From 20% to 24% = for 1 second enter image*/
+    36% { top: 0px; opacity: 1; z-index: 0; }   /* From 24% to 36 % = for 3 seconds the image is visible */
+    40% { top: 325px; opacity: 0; z-index: 0; } /* From 36% to 40% = for 1 second exit image */
+    41% { top: -325px; opacity: 0; z-index: -1; }   /* Return to Original Position */
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclethree {
+    0%  { top: -325px; opacity: 0; }
+    36% { top: -325px; opacity: 0; }
+    40% { top: 0px; opacity: 1; }
+    44% { top: 0px; opacity: 1; }
+    56% { top: 0px; opacity: 1; }
+    60% { top: 325px; opacity: 0; z-index: 0; }
+    61% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefour {
+    0%  { top: -325px; opacity: 0; }
+    56% { top: -325px; opacity: 0; }
+    60% { top: 0px; opacity: 1; }
+    64% { top: 0px; opacity: 1; }
+    76% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 325px; opacity: 0; z-index: 0; }
+    81% { top: -325px; opacity: 0; z-index: -1; }
+    100%{ top: -325px; opacity: 0; z-index: -1; }
+}
+@keyframes cyclefive {
+    0%  { top: -325px; opacity: 0; }
+    76% { top: -325px; opacity: 0; }
+    80% { top: 0px; opacity: 1; }
+    84% { top: 0px; opacity: 1; }
+    96% { top: 0px; opacity: 1; z-index: 0; }
+    100%{ top: 325px; opacity: 0; z-index: 0; }
+}

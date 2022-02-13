@@ -1,0 +1,89 @@
+
+#img1,#img2,#img3,#img4{display: block;
+    position: absolute;
+    width: 170px;
+}
+#img1{
+    animation: copy1 3s linear infinite alternate-reverse ;
+}
+@keyframes copy1 {
+    0%{
+        left:0;
+    }
+    100%{
+        left: 400px;
+    }
+}
+#img2{
+    animation: copy2 3s linear infinite alternate-reverse ;
+}
+@keyframes copy2 {
+    0%{
+        top:0;
+    }
+    100%{
+        top: 400px;
+    }
+}#img3{
+     animation: copy3 3s linear  infinite alternate-reverse ;
+ }
+@keyframes copy3 {
+    0%{
+        top:0;
+        left:0;
+    }
+    20%{
+        left:150px;
+        top:150px;
+    }
+    40%{
+        left:250px;
+        top:150px;
+    }
+    60%{
+        left:250px;
+        top:250px;
+    }
+    80%{
+        left:350px;
+        top:250px;
+    }
+    100%{
+        top:350px;
+        left: 350px;
+    }
+}#img4{
+     animation: copy4 3s linear  infinite alternate-reverse ;
+ }
+@keyframes copy4 {
+    0%{
+        top:0;
+        left:0;
+    }
+    5%{
+        top:100px;
+        left:100px;
+    }10%{
+         top:170px;
+         left:170px;
+     }15%{
+          top:270px;
+          left:270px;
+      }
+    25%{
+        left:470px;
+        top:270px;
+    }
+    50%{
+        left:470px;
+        top:470px;
+    }
+    75%{
+        left:270px;
+        top:470px;
+    }
+    100%{
+        top:270px;
+        left: 270px;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>13_3</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <p><span style="color: orangered; font-size: xxx-large" id="name"></span></p>
+    <p><span style="color: yellow; font-size: x-large" id="family"></span></p>
+    <p><span style="color: dimgray; font-size: xx-large" id="faculty"></span></p>
+    <p><span style="color: yellowgreen; font-size: x-large" id="age1"></span></p>
+</div>
+<script>
+    txt = "<student>";
+    txt = txt + "<name>Программа Мультиков</name>";
+    txt = txt + "<family>1.Семейные мелодрамы</family>";
+    txt = txt + "<faculty>2.БелоДЕД TV(ghostWhite)</faculty>";
+    txt += "<age1>3.Rick &amp; Morty</age1>";
+    txt = txt + "</student>";
+    if (window.DOMParser) {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt, "text/xml");
+    } else {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+    }
+    document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    document.getElementById("family").innerHTML = xmlDoc.getElementsByTagName("family")[0].childNodes[0].nodeValue;
+    document.getElementById("faculty").innerHTML = xmlDoc.getElementsByTagName("faculty")[0].childNodes[0].nodeValue;
+    document.getElementById("age1").innerHTML = xmlDoc.getElementsByTagName("age1")[0].childNodes[0].nodeValue;
+
+</script>
+</body>
+</html>

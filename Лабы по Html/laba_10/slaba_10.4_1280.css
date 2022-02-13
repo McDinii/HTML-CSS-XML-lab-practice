@@ -1,0 +1,31 @@
+*{
+    background-color: red;
+}
+article{
+    display: block;
+    box-sizing: border-box;
+    margin-left:3%;
+    padding-right: 0;
+    overflow: hidden;}
+figure {display: inline-block;
+    background: green;
+    margin: 0 0 5px 0;
+    box-sizing: border-box;
+    border: solid #aa4fff 5px ;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    width: 280px;
+    height: 300px;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+}
+figcaption {
+    font-size: 28px;
+    color: darkcyan ;
+}

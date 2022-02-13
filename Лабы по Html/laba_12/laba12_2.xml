@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<poit>
+    <person>
+        <name>ДворовенкоАндрей</name>
+        <score>7</score>
+        <birth>2003</birth>
+    </person>
+    <person>
+        <name>Драчков Евгений</name>
+        <score>6</score>
+        <birth>2003</birth>
+    </person>
+    <person>
+        <name>Драчков Денис</name>
+        <score>5</score>
+        <birth>2021</birth>
+    </person>
+</poit>

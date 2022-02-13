@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="1.xsl" type="text/xsl" ?>
+<FACULTY>
+    <SPECIALIZATION>
+        <NAME>ПОИТ</NAME>
+        <TIME>4 года</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>775 человек</PAGES>
+        <PASSING>400 балл</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ПОИБМСя</NAME>
+        <TIME>4 года</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>75 человек</PAGES>
+        <PASSING>253 балла</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ИСиТ</NAME>
+        <TIME>4 года</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>90 человек</PAGES>
+        <PASSING>260 баллов</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ДЭЙВИ</NAME>
+        <TIME>4 года</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>5 человек</PAGES>
+        <PASSING>100 баллов</PASSING>
+    </SPECIALIZATION>
+</FACULTY>

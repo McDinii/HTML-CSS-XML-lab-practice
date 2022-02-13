@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ</title>
+    <style>
+        li {
+         list-style-type: none; /* Убираем маркеры */
+        }
+    </style>
+</head>
+<body>
+<form action="Lab_html_1.4.html" method="get">
+  <h2 style="background-color: #888888;border-radius: 5px; font-family: sans-serif;">Оформить заказ</h2>
+  <div>
+    <label>Имя
+      <input type="text" name="name" value="" style="margin-left: 100px;"/>
+    </label>
+  </div>
+  <br/>
+  <div>
+    <label style=" margin-top: 2%;">Tелефон
+      <input type="text" name="number" value="" style="margin-left: 70px;"/>
+    </label>
+  </div>
+  <br/>
+  <div>
+    <label style="margin-top: 30px;">Адрес
+      <textarea  name="textr" cols="30" rows="1" style="margin-left: 87px;"></textarea>
+    </label>
+  </div>
+  <br/>
+  <div>
+    <label style="margin-top: 2%;">Способ оплаты
+      <label style="margin: 19px;" ><input type="radio" name="cash" value="cash" checked/>наличными</label><br/>
+      <label style="margin: 127px;" ><input type="radio" name="cash" value="cash"/>пластиковой картой</label><br/>
+      <label style="margin: 127px;" ><input type="radio" name="cash" value="cash"/>безналичный расчет</label>
+    </label>
+  </div>
+  <br/>
+  <div>
+    Желаемый день <br/> доставки
+    <label>
+          <select style="margin-left: 66px;">
+            <option>Понедельник</option>
+            <option>Вторник</option>
+            <option>Среда</option>
+            <option>Четверг</option>
+            <option>Пятница</option>
+            <option>Суббота</option>
+            <option>Воскресенье</option>
+          </select>
+    </label>
+  </div>
+  <div style="margin-top: 2%;">
+    Дополнительно
+    <div style="margin-left: 127px;">
+      <label><input type="checkbox"/>перед доставкой свяжитесь со мной</label><br/>
+      <label><input type="checkbox"/>курьер должен быть трезвый</label>
+    </div>
+  </div>
+  <button type="submit" style="margin-left: 130px; margin-top: 30px;width:100px;height: 50px "  >Оплатить</button>
+</form>
+</body>
+</html>

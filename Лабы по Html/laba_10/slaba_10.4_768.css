@@ -1,0 +1,32 @@
+*{
+    background-color: green;
+}
+article{
+    display: block;
+    box-sizing: border-box;
+    margin-left:19%;
+
+    padding-right: 0;
+    overflow: hidden;}
+figure {display: inline-block;
+    background: green;
+    margin: 0 0 5px 0;
+    box-sizing: border-box;
+    border: solid #aa4fff 5px ;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    width: 10%;
+    height: 12%;
+
+}
+img{
+    width: 8%;
+    height: 8%;
+    display: block;
+    overflow: hidden;
+}
+figcaption {
+    font-size: 10px;
+    color: blue ;
+}

@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6{
+    color: plum;
+    font-family: "Monotype Corsiva",sans-serif;
+}
+.li1{
+    color: darkred;
+    font-family: "Times New Roman",serif;
+    font-size: 18pt;
+}
+.li2{
+    color: #fff44f;
+    font-family: "Times New Roman",serif;
+    font-size: 20pt;
+}
+.li3{
+    color: greenyellow;
+    font-family: "Times New Roman",serif;
+    font-size: 22pt;
+}

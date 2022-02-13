@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FACULTY [
+        <!ELEMENT FACULTY (SPECIALIZATION,SPECIALIZATION,SPECIALIZATION,SPECIALIZATION)>
+        <!ELEMENT SPECIALIZATION (NAME,TIME,EXAM,PAGES,PASSING)>
+        <!ELEMENT NAME (#PCDATA)>
+        <!ELEMENT TIME (#PCDATA)>
+        <!ELEMENT EXAM (#PCDATA)>
+        <!ELEMENT PAGES (#PCDATA)>
+        <!ELEMENT PASSING (#PCDATA)>
+        <!ENTITY tim "4 года">
+        ]>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<FACULTY>
+    <SPECIALIZATION>
+        <NAME>ПОИТ</NAME>
+        <TIME>&tim;</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>775 человек</PAGES>
+        <PASSING>400 балл</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ПОИБМСя</NAME>
+        <TIME>&tim;</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>75 человек</PAGES>
+        <PASSING>253 балла</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ИСиТ</NAME>
+        <TIME>&tim;</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>90 человек</PAGES>
+        <PASSING>260 баллов</PASSING>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>ДЭЙВИ</NAME>
+        <TIME>&tim;</TIME>
+        <EXAM>Русский, математика, физика</EXAM>
+        <PAGES>5 человек</PAGES>
+        <PASSING>100 баллов</PASSING>
+    </SPECIALIZATION>
+</FACULTY>

@@ -1,0 +1,111 @@
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 60px);
+    grid-gap: 15px;
+    width: 630px;
+    margin-left: 428px;
+    margin-bottom: 39px;
+}
+.zagolovok1 {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+.zagolovok {
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+.zagolovok:last-child {
+    padding-top: 8px;
+}
+.foot {
+    display: flex;
+}
+.left {
+    display: grid;
+    grid-template-columns: 25px 160px 160px;
+    grid-template-rows: 374px;
+    grid-gap: 15px;
+    margin-left: 347px;
+    margin-right: 38px;
+}
+.right {
+     display: grid;
+     grid-template-columns: 160px 160px 25px;
+     grid-template-rows: 180px 180px;
+     grid-gap: 15px;
+ }
+.left_div_first {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 24px;
+}
+.left_div_second {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 14px;
+}
+.left_div_third {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 14px;
+}
+
+.right_div_first {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    font-size: 14px;
+}
+.right_div_second {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 14px;
+}
+.right_div_third {
+    border: 2px solid black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 14px;
+}
+.right_div_fourth {
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 24px;
+}

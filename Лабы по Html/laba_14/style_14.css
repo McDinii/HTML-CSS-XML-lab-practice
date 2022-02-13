@@ -1,0 +1,11 @@
+table {
+  border: 5px solid slategray;
+  border-collapse: collapse; }
+
+th {
+  border: 5px solid slategray; }
+
+td, tr {
+  border: 5px solid lightpink; }
+
+/*# sourceMappingURL=style_14.css.map */

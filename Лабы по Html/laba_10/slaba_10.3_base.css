@@ -1,0 +1,45 @@
+
+
+
+.video_M {
+
+    width: 300px;
+    height: 300px;
+}
+
+.video{
+    position:fixed;right:0;top:0;width:80%;height:100%;background:green;color:#fff;overflow:auto;
+}
+#vvv {
+    position:fixed;left:0;top:0;width:20%;height:100%;background:blue;color:#fff;overflow:auto;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu__link {
+    color: red;
+}
+
+.sub-menu__list li {
+    margin: 0 0 0 -50px;
+}
+
+.sub-menu__list a {
+    border: black 1px solid;
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    background: purple;
+    color: palegoldenrod;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+

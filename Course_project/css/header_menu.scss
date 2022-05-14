@@ -1,0 +1,267 @@
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+}
+.header_wrapper {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: white;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+  }
+}
+.header_body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  justify-content: space-between;
+}
+.header_logo {
+  display: flex;
+  z-index: 5;
+  position: relative;
+}
+.logo svg {
+  margin-top: 2%;
+  width:250px; height:55px;
+}
+.menu_body{
+  margin: auto;
+
+}
+.header_menu {
+  display: flex;
+
+  ul {
+    li {
+      &:hover {
+        .submenu_list {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.menu_list {
+  display: flex;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+.menu_item {
+  position: relative;
+  padding: 5px 0;
+  margin: 0 3px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  &:not(:last-child) {
+    margin: 0 30px 0 0;
+  }
+}
+.menu_link {
+  color: inherit;
+  &:hover {
+    border-bottom: 1px solid black;
+  }
+}
+.submenu_list {
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  left: -35px;
+  top: 205%;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.submenu_item {
+  &:not(:last-child) {
+    margin: 0 0 3px 0;
+  }
+  padding: 5px 10px;
+  text-align: center;
+}
+.submenu_link {
+  color: black;
+  line-height: 120%;
+  position: relative;
+  &:hover {
+    border-bottom: 1px solid black;
+  }
+}
+.header_active {
+  display: flex;
+  width: 150px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon_inst {
+  position: relative;
+  padding: 5px 0;
+  z-index: 5;
+}
+.icon_like {
+  position: relative;
+  padding: 5px 0;
+  z-index: 5;
+}
+.icon_avatar {
+  position: relative;
+  padding: 5px 0;
+  z-index: 5;
+}
+.header_burger {
+  display: none;
+}
+@media (max-width: 1024px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .header_wrapper {
+    display: block;
+    height: 50px;
+  }
+  .header_body {
+    justify-content: safe;
+    height: 50px;
+    min-height: 50px;
+  }
+  .header_logo {
+    margin: 0;
+  }
+  .logo{
+    margin-left: -5%;
+
+  }
+  $width_logo_s:190px;
+  $height_logo_s:45px;
+  .logo svg {
+    width: $width_logo_s;
+    height: $height_logo_s;
+  }
+  $margin_HB:auto;
+  $text_align_HB:center;
+  $width_HB:100%;
+  .header_menu {
+    position: fixed;
+    transition: 0.5s ease-in-out;
+    top: -100%;
+    border-top: 1px black solid;
+    border-bottom: 2px whitesmoke solid;
+    left: 0;
+
+    margin: $margin_HB ;
+    width: $width_HB;
+    height: fit-content;
+
+    background-color: #f1f2f7;
+    ul {
+      li {
+        &:hover {
+          .submenu_list {
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+  .header_menu.active {
+    top: 50px;
+    margin: $margin_HB;
+    width:$width_HB;
+
+
+
+  }
+  .menu_list {
+    margin-top: 5%;
+    display: block;
+    width: $width_HB;
+  }
+  .menu_item {
+    padding-bottom: 20px;
+  }
+  .submenu_list {
+    position: absolute;
+    margin: 20px 0 0 60px;
+    background-color: #f1f2f7;
+    transition: none;
+  }
+  .submenu_item {
+    background-color: inherit;
+    text-align: left;
+  }
+  .submenu_link {
+    &:hover {
+      border-bottom: 1px solid black;
+    }
+  }
+  .header_active {
+    flex-wrap: nowrap;
+  }
+  .header_burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 2;
+    &:before {
+      content: "";
+      background-color: black;
+      width: 100%;
+      height: 1.5px;
+      left: 0;
+      position: absolute;
+      top: 0px;
+    }
+    &:after {
+      content: "";
+      background-color: black;
+      width: 100%;
+      height: 1.5px;
+      left: 0;
+      position: absolute;
+      bottom: -1px;
+    }
+    span {
+      position: absolute;
+      height: 1.5px;
+      width: 100%;
+      top: 10px;
+      left: 0;
+      background-color: black;
+    }
+  }
+  .header_burger.active {
+    &:before {
+      transform: rotate(45deg);
+      top: 9px;
+    }
+    &:after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+    }
+    span {
+      transform: scale(0);
+    }
+  }
+}

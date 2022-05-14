@@ -1,0 +1,255 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes"/>
+    <title>WETORNIX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/null_style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="css/header_menu.css" type="text/css"/>
+    <link rel="stylesheet" href="css/goods.css" type="text/css"/>
+    <link rel="stylesheet" href="css/form.css" type="text/css"/>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="popup__bg">
+        <form class="popup">
+            <img alt="cross" src="img/cross.png" class="close-popup">
+            <label>
+                <input type="text" name="name">
+                <div class="label__text">
+                    Ваше имя
+                </div>
+            </label>
+            <label>
+                <input type="tel" name="tel">
+                <div class="label__text">
+                    Ваш телефон
+                </div>
+            </label>
+            <label>
+                <input type="email" name="e-mail">
+                <div class="label__text">
+                    Ваш e-mail
+                </div>
+            </label>
+            <div class="popup_button">
+                <button type="submit">отправить</button>
+            </div>
+        </form>
+    </div>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="header_container container">
+                <div class="header_body">
+                    <div class="header_logo">
+                        <a href="index.html" class="logo"><svg  viewBox="0 0 206 36" fill="none"
+                                                       xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_2_4)">
+                                <path d="M14.84 17.93L17.745 7.85L15.645 1.165H13.65V0.499998H24.5V1.165H22.435L27.65 17.72L31.85 1.165H28.315V0.499998H35.315V1.165H33.005L26.565 25.35H23.45L18.27 9.53L13.72 25.35H10.675L1.855 1.165H0.21V0.499998H11.585V1.165H9.135L14.84 17.93ZM36.2477 0.499998H54.4477L54.7977 7.43H54.1677C53.1877 5.07333 52.161 3.46333 51.0877 2.6C50.0144 1.71333 48.4394 1.27 46.3627 1.27H45.1377V12.085H46.3277C47.4244 12.085 48.346 11.6767 49.0927 10.86C49.8394 10.02 50.3644 8.9 50.6677 7.5H51.1927V17.86H50.5977C50.1777 16.11 49.606 14.8617 48.8827 14.115C48.1827 13.3683 47.2144 12.995 45.9777 12.995H45.1377V24.23H46.4677C48.6144 24.23 50.4344 23.5883 51.9277 22.305C53.4444 21.0217 54.4827 19.3767 55.0427 17.37H55.7427L55.4627 25H36.2477V24.23H38.3127V1.27H36.2477V0.499998ZM78.5539 0.499998L78.9039 9.285H78.2389C77.2123 6.18167 76.3023 4.07 75.5089 2.95C74.7156 1.80667 73.5723 1.235 72.0789 1.235H71.6589V24.265H74.6339V25H61.8589V24.265H64.8339V1.235H64.3789C62.8856 1.235 61.7306 1.83 60.9139 3.02C60.0973 4.18667 59.1989 6.275 58.2189 9.285H57.5539L57.9039 0.499998H78.5539ZM96.661 14.185V11.595C96.661 7.325 96.451 4.63 96.031 3.51C95.5643 2.22667 94.8993 1.43333 94.036 1.13C93.546 0.943332 92.951 0.849998 92.251 0.849998C91.551 0.849998 90.9443 0.943332 90.431 1.13C89.941 1.31667 89.5326 1.64333 89.206 2.11C88.8793 2.57667 88.611 3.06667 88.401 3.58C88.2143 4.09333 88.0626 4.81667 87.946 5.75C87.806 7.10333 87.736 9.09833 87.736 11.735V14.255C87.736 17.1017 87.841 19.1317 88.051 20.345C88.2843 21.535 88.5643 22.3867 88.891 22.9C89.6143 24.0433 90.7343 24.615 92.251 24.615C94.0943 24.615 95.2843 23.845 95.821 22.305C96.381 20.7417 96.661 18.035 96.661 14.185ZM92.181 25.35C88.2843 25.35 85.3676 24.3 83.431 22.2C81.5176 20.0767 80.561 17.02 80.561 13.03C80.561 9.01667 81.5876 5.86667 83.641 3.58C85.7176 1.27 88.646 0.114999 92.426 0.114999C96.206 0.114999 99.0526 1.21167 100.966 3.405C102.903 5.575 103.871 8.66667 103.871 12.68C103.871 16.6933 102.891 19.8083 100.931 22.025C98.9943 24.2417 96.0776 25.35 92.181 25.35ZM116.788 12.61H114.933V24.335H117.208V25H105.833V24.335H108.108V1.165H105.833V0.499998H116.403C119.436 0.499998 121.583 0.663332 122.843 0.989998C124.126 1.29333 125.024 1.66667 125.538 2.11C126.658 3.02 127.218 4.46667 127.218 6.45C127.218 8.43333 126.728 9.85667 125.748 10.72C124.768 11.56 123.274 12.0617 121.268 12.225V12.33C123.158 12.5867 124.476 13.1467 125.223 14.01C125.969 14.8733 126.343 16.32 126.343 18.35V20.205C126.343 21.4183 126.401 22.235 126.518 22.655C126.658 23.075 126.938 23.285 127.358 23.285C127.778 23.285 128.104 23.0983 128.338 22.725C128.594 22.3283 128.828 21.5117 129.038 20.275L129.633 20.345C129.376 22.3283 128.921 23.6583 128.268 24.335C127.638 25.0117 126.366 25.35 124.453 25.35C122.539 25.35 121.174 24.9067 120.358 24.02C119.564 23.11 119.168 21.4183 119.168 18.945V16.39C119.168 15.0833 118.993 14.1267 118.643 13.52C118.316 12.9133 117.698 12.61 116.788 12.61ZM114.933 1.165V11.945H116.053C117.383 11.945 118.363 11.5367 118.993 10.72C119.646 9.90333 119.973 8.57333 119.973 6.73V5.715C119.973 3.87167 119.658 2.65833 119.028 2.075C118.421 1.46833 117.441 1.165 116.088 1.165H114.933ZM151.011 1.165V25H146.111L134.106 2.355V24.335H136.031V25H131.236V24.335H133.161V1.165H131.236V0.499998H140.896L150.066 18.07V1.165H148.141V0.499998H152.936V1.165H151.011ZM154.684 0.499998H165.359V1.165H163.434V24.335H165.359V25H154.684V24.335H156.609V1.165H154.684V0.499998ZM190.75 25H178.78V24.335H181.09L175.875 15.095L170.31 24.335H174.02V25H166.775V24.335H169.12L175.245 14.045L167.93 1.2H166.04V0.499998H177.835V1.2H175.455L180.18 9.67L185.465 1.2H181.825V0.499998H189V1.2H186.69L180.775 10.65L188.72 24.335H190.75V25Z" fill="black"/>
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_2_4" x="0.210022" y="0.115005" width="205.54" height="35.235" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dx="10" dy="5"/>
+                                    <feGaussianBlur stdDeviation="2.5"/>
+                                    <feComposite in2="hardAlpha" operator="out"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.501961 0 0 0 0 0.501961 0 0 0 0 0.501961 0 0 0 0.4 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_4"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_4" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                        </a>
+                    </div>
+
+                    <div class="header_menu">
+                        <nav class="menu_body">
+                            <ul class="menu_list">
+                                <li class="menu_item">
+                                    <a href="index.html" class="menu_link">На главную</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a data-goto=".menu" href="#" class="menu_link">Католог</a>
+                                    <ul class="submenu_list">
+                                        <li class="submenu_item">
+                                            <a href="table.html" class="submenu_link">Журнальные столы</a>
+                                        </li>
+                                        <li class="submenu_item">
+                                            <a href="dinner.html" class="submenu_link">Обеденные столы</a>
+                                        </li>
+                                        <li class="submenu_item">
+                                            <a href="tabledecor.html" class="submenu_link"> Cтолы с декором</a>
+                                        </li>
+                                        <li class="submenu_item">
+                                            <a href="shelves.html" class="submenu_link">Полки</a>
+                                        </li>
+                                        <li class="submenu_item">
+                                            <a href="decor.html" class="submenu_link">Декор</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a data-goto=".about" href="#abouts" class="menu_link">О продукции</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a data-goto=".footer" href="#" class="menu_link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header_active">
+                        <a href="https://www.instagram.com/wetornix/" class="icon_inst">
+                            <img src="img/inst.png" alt="inst_icon" height="25px" width="25px"/>
+                        </a>
+                        <div class="active_icon_like">
+                            <a href="#" class="icon_like open-popup">
+                                <img src="img/like.png" alt="like_icon" height="25px" width="25px"
+                                /></a>
+                            <div class="cart_body">
+                                <ul class="cart_list"></ul>
+                            </div>
+                        </div>
+                        <a href="#" class="icon_avatar open-popup"
+                        ><img src="img/avatar.png" alt="avatar" height="25px" width="25px"
+                        /></a>
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="goods">
+        <div class="goods_wrapper">
+            <div class="title">Журнальные столы</div>
+            <div class="goods_container">
+                <div class="coffee_table_eternity cell_goods">
+                    <div class="cell_info">
+                        <div class="info">
+                            <h1>
+                                Журнальный </br>стол "Eternity"
+                            </h1>
+                            <p>
+                                149 BYN
+                            </p>
+                            <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
+                        </div>
+                    </div>
+                    <img src="img/table/coffe_table_eternity.png" alt=""/>
+                </div>
+                <div class="coffee_table_eternity cell_goods">
+                    <div class="cell_info">
+                        <div class="info">
+                            <h1>
+                                Журнальный </br>стол "Minimalism"
+                            </h1>
+                            <p>
+                                179 BYN
+                            </p>
+                            <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
+                        </div>
+                    </div>
+                    <img src="img/table/table_minimalism.png" alt="" height="80%" />
+                </div>
+                <div class="coffee_table_eternity cell_goods">
+                    <div class="cell_info">
+                        <div class="info">
+                            <h1>
+                                Журнальный </br>стол "Lake"
+                            </h1>
+                            <p>
+                                999 BYN
+                            </p>
+                            <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
+                        </div>
+                    </div>
+                    <img src="img/table/table_lake.png" alt="" height="60%" />
+                </div>
+                <div class="coffee_table_eternity cell_goods">
+                    <div class="cell_info">
+                        <div class="info">
+                            <h1>
+                                Журнальный </br>стол "Circuit"
+                            </h1>
+                            <p>
+                                699 BYN
+                            </p>
+                            <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
+                        </div>
+                    </div>
+                    <img src="img/table/table_circuit.png" alt="" height="70%" />
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_container container">
+            <div class="footer_body">
+                <div class="footer_contacts">
+                    <a href="mailto:wetornix@gmail.com" class="icon_mail">
+                        <img
+                                src="img/mail.png"
+                                alt=""
+                                height="25"
+                                width="25"
+                                class="icon"
+                        />
+                        wetornix@gmail.com
+                    </a>
+                    <a href="tel:+375293354677" class="icon_phone">
+                        <img
+                                src="img/phone.png"
+                                alt=""
+                                height="25"
+                                width="25"
+                                class="icon"
+                        />
+                        +375293354677
+                    </a>
+                </div>
+                <div class="footer_link">
+                    <a href="https://t.me/wetornix" class="icon_tg">
+                        <img
+                                src="img/tg.png"
+                                alt=""
+                                height="25"
+                                width="25"
+                                class="icon"
+                        />
+                        wetornix_tg
+                    </a>
+                    <a href="https://www.instagram.com/wetornix/" class="icon_inst_footer">
+                        <img
+                                src="img/inst.png"
+                                alt=""
+                                height="25"
+                                width="25"
+                                class="icon"
+                        />
+                        @werotnix
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/parse_json.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+
+</body>

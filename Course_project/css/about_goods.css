@@ -1,0 +1,136 @@
+.about {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+.about_wrapper {
+  position: relative;
+
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.about_container {
+  min-height: 730px;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.info_product {
+  width: 626px;
+  padding: 0 10px;
+  font-size: 22px;
+  text-align: left;
+  line-height: 35px;
+}
+.info_product h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.about_table {
+  height: 500px;
+  margin-left: 100px;
+  z-index: 5;
+}
+.wood {
+  position: absolute;
+  left: 80%;
+}
+.about_wood {
+  float: right;
+}
+@media (max-width: 1200px) {
+  .about_container {
+    min-height: 600px;
+    max-width: 900px;
+  }
+  .info_product {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .info_product h1 {
+    font-size: 28px;
+    width: 500px;
+  }
+  .about_table {
+    height: 400px;
+    margin-left: 0px;
+    z-index: 5;
+  }
+  .about_wood {
+    height: 600px;
+  }
+}
+@media (max-width: 900px) {
+  .about_container {
+    min-height: 500px;
+    padding: 40px;
+  }
+  .info_product {
+    font-size: 18px;
+    line-height: 24px;
+    width: 450px;
+  }
+  .info_product h1 {
+    font-size: 24px;
+    width: 450px;
+  }
+  .about_table {
+    height: 300px;
+    margin-left: 0px;
+    z-index: 5;
+  }
+  .wood {
+    left: 70%;
+    top: 0%;
+  }
+  .about_wood {
+    height: 500px;
+  }
+}
+@media (max-width: 780px) {
+  .about_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+  }
+  .info_product {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 5;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .info_product h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .about_table {
+    display: none;
+  }
+  .wood {
+    left: 0;
+  }
+
+}
+@media (max-width: 405px) {
+  .about_container {
+    min-height: 590px;
+  }
+  .info_product {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .info_product h1 {
+    font-size: 18px;
+  }
+  .about_wood {
+    height: 590px;
+  }
+}

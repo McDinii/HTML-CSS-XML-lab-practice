@@ -1,0 +1,151 @@
+.goods {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.goods_wrapper {
+    position: relative;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-height: 730px;
+    background-color: #f1f2f7;
+}
+.goods_container {
+    padding:30px  30px 50px 30px;
+    position: relative;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 5px;
+    width: 100%;
+    padding: 50px;
+}
+.cell_goods {
+    position: relative;
+    height: 385px;
+    width: 315px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.cell_goods img {
+    position: absolute;
+}
+.cell_info {
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    height: 280px;
+    width: 305px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px 0 rgb(192, 192, 192);
+}
+.info {
+    position: relative;
+    top: 180px;
+}
+.info h1 {
+    font-size: 20px;
+    list-style: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info p {
+    font-weight:500;
+    text-align: center;
+}
+.info img {
+    position: absolute;
+    right: 22px;
+    top: 60px;
+}
+.coffee_table_eternity {
+}
+.dining_table_comfort {
+}
+.decor_waves {
+}
+.decor_cosy {
+}
+@media(max-width: 1400px){
+    .goods_container {
+        max-width: 740px;
+    }
+}
+@media(max-width:870px){
+    .goods_container{
+        max-width: 550px;
+    }
+    .title{
+        font-size: 26px;
+        letter-spacing: 3px;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .cell_goods {
+        position: relative;
+        height: 262px;
+        width: 214px;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    .coffee_table_eternity img{
+        height: 185px;
+        width: 168px;
+    }
+    .dining_table_comfort img{
+        height: 162px;
+        width: 189px;
+    }
+    .decor_waves img{
+        height: 143px;
+        width: 189px;
+    }
+    .decor_cosy img{
+        height: 160px;
+        width: 200px;
+    }
+    .cell_info {
+        top: 80px;
+        height: 196px;
+        width: 214px;
+        border-radius: 7px;
+        box-shadow: 0 14px 21px 0 rgb(192, 192, 192);
+    }
+    .info {
+        top: 126px;
+    }
+    .info h1 {
+        font-size: 16px;
+        list-style: 17px;
+        margin-bottom: 14px;
+    }
+    .info p {
+        font-size: 16px;
+    }
+    .info img {
+        right: 15px;
+        top: 48px;
+        height: 15px;
+        width: 15px;
+    }
+}
+@media(max-width:530px){
+    .goods_container{
+        justify-content: center;
+    }
+}

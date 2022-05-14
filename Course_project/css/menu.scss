@@ -1,0 +1,167 @@
+.menu {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.menu_wrapper {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.menu_container {
+  position: relative;
+  display: flex;
+  max-width: 1300px;
+  padding: 40px 15px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 730px;
+  justify-content: space-between;
+}
+
+.cell {
+  position: relative;
+  min-height: 300px;
+  min-width: 415px;
+  margin: 7.5px 0;
+  background-color: #f1f2f7;
+
+  img {
+    float: right;
+    margin-left: 5px;
+  }
+}
+
+.button {
+  top: 250px;
+  left: 45px;
+  position: absolute;
+  letter-spacing: 2px;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 7px 19px;
+  box-shadow: 2px 3px 4px rgb(192, 192, 192);
+  transition: .5s;
+
+  &:hover {
+    background: #ffffff;
+    box-shadow: 4px 9px 12px rgb(192, 192, 192);
+    transform: translateY(-5px);
+  }
+}
+
+.text {
+  top: 30px;
+  left: 30px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  width: 160px;
+  position: absolute;
+}
+
+.coffee_tables {}
+
+.shelves .text {
+  top: 45px;
+}
+
+.tables_with_decor {}
+
+.decor .text {
+  top: 45px;
+}
+
+.dining_tables {
+  min-width: 845px;
+}
+
+.dining_tables_1 {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .menu_container {
+    max-width: 870px;
+  }
+}
+
+@media (max-width: 870px) {
+  .menu_container {
+    padding: 20px 15px;
+    max-width: 620px;
+  }
+
+  .cell {
+    min-height: 210px;
+    min-width: 290px;
+  }
+
+  .button {
+    top: 160px;
+    left: 25px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 6px 17px;
+  }
+
+  .text {
+    top: 20px;
+    left: 20px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+  }
+
+  .cell img {
+    height: 212px;
+    width: 163px;
+  }
+
+  .shelves .text, .decor .text {
+    top: 30px;
+  }
+
+  .dining_tables {
+    img {
+      height: 212px;
+      width: 454px;
+    }
+
+    min-width: 595px;
+  }
+}
+
+@media (max-width: 620px) {
+  .dining_tables_2 {
+    display: none;
+  }
+
+  .dining_tables {
+    min-width: 290px;
+
+    img {
+      height: 212px;
+      width: 163px;
+    }
+  }
+
+  .dining_tables_1 {
+    display: block;
+  }
+
+  .menu_container {
+    max-width: 330px;
+  }
+}

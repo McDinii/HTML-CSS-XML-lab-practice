@@ -71,14 +71,7 @@
     right: 22px;
     top: 60px;
 }
-.coffee_table_eternity {
-}
-.dining_table_comfort {
-}
-.decor_waves {
-}
-.decor_cosy {
-}
+
 @media(max-width: 1400px){
     .goods_container {
         max-width: 740px;

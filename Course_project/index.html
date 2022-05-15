@@ -21,10 +21,12 @@
     <link rel="stylesheet" href="css/gallery.css" type="text/css"/>
     <link rel="stylesheet" href="css/form.css" type="text/css"/>
     <link rel="stylesheet" href="css/xml.css" type="text/css"/>
+    <script type="text/javascript" src="js/parse_json.js"></script>
 </head>
 
 <body>
-
+<header></header>
+<section></section>
 <div class="wrapper"><!--reg menu-->
     <div class="popup__bg">
         <form class="popup">
@@ -52,6 +54,7 @@
             </div>
         </form>
     </div>
+    <div id="1"></div>
     <header class="header">
         <div class="header_wrapper">
             <div class="header_container container">
@@ -260,21 +263,17 @@
                 <div class="goods_wrapper">
                     <div class="title">Лидеры продаж 2022</div>
                     <div class="goods_container">
-                        <div class="coffee_table_eternity cell_goods">
+                        <div class="cell_goods">
                             <div class="cell_info">
                                 <div class="info">
-                                    <h1>
-                                        Журнальный </br>стол "Eternity"
-                                    </h1>
-                                    <p>
-                                        150&#36;
-                                    </p>
+                                    <h1>Журнальный стол "Eternity"</h1>
+                                    <p>150&#36;</p>
                                     <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
                                 </div>
                             </div>
-                            <img src="img/goods/coffe_table_eternity.png" alt=""/>
+                            <img class="leader" src="img/goods/coffe_table_eternity.png" alt=""/>
                         </div>
-                        <div class="dining_table_comfort cell_goods">
+                        <div class="cell_goods">
                             <div class="cell_info">
                                 <div class="info">
                                     <h1>
@@ -286,9 +285,9 @@
                                     <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
                                 </div>
                             </div>
-                            <img src="img/goods/dining_table_comfort.png" alt=""/>
+                            <img class="leader" src="img/goods/dining_table_comfort.png" alt=""/>
                         </div>
-                        <div class="decor_waves cell_goods">
+                        <div class="cell_goods">
                             <div class="cell_info">
                                 <div class="info">
                                     <h1>
@@ -300,9 +299,9 @@
                                     <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
                                 </div>
                             </div>
-                            <img src="img/goods/decor_waves.png" alt=""/>
+                            <img class="leader" src="img/goods/decor_waves.png" alt=""/>
                         </div>
-                        <div class="decor_cosy cell_goods">
+                        <div class="cell_goods">
                             <div class="cell_info">
                                 <div class="info">
                                     <h1>
@@ -314,7 +313,7 @@
                                     <img src="img/like.png" height="21px" width="21px" alt="" class="open-popup">
                                 </div>
                             </div>
-                            <img src="img/goods/decor_cosy.png" alt=""/>
+                            <img class="leader" src="img/goods/decor_cosy.png" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -438,7 +437,7 @@
 </div>
 
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/parse_json.js"></script>
+
 <script type="text/javascript" src="js/menu.js"></script>
 <script type="text/javascript" src="js/gallery.js"></script>
 <script type="text/javascript" src="js/form.js"></script>

@@ -17,7 +17,7 @@
         "brand": "WETORNIX",
         "img": "img/images/decor_ember.png",
         "category": "Декор",
-        "price": 39,
+        "price": "39&#36;",
         "description": "",
         "quantity": 20
       },
@@ -29,7 +29,7 @@
         "brand": "WETORNIX",
         "img": "img/goods/decor_waves.png",
         "category": "Декор",
-        "price": 139,
+        "price": "139&#36;",
         "description": "",
         "quantity": 10
       },
@@ -41,7 +41,7 @@
         "brand": "WETORNIX",
         "img": "img/images/decor_map.png",
         "category": "Декор",
-        "price": 99,
+        "price": "99&#36;",
         "description": "",
         "quantity": 10
       },
@@ -53,7 +53,7 @@
         "brand": "WETORNIX",
         "img": "img/images/decor_sunlight.png",
         "category": "Декор",
-        "price": 39,
+        "price": "39&#36;",
         "description": "",
         "quantity": 17
       },
@@ -65,7 +65,7 @@
         "brand": "WETORNIX",
         "img": "img/goods/decor_cosy.png",
         "category": "Декор",
-        "price": 89,
+        "price": "89&#36;",
         "description": "",
         "quantity": 21
       },
@@ -77,7 +77,7 @@
         "brand": "WETORNIX",
         "img": "img/images/decor_ships.png",
         "category": "Декор",
-        "price": 109,
+        "price": "109&#36;",
         "description": "",
         "quantity": 12
       }
@@ -91,7 +91,7 @@
         "brand": "WETORNIX",
         "img": "img/images/obed_refraction.png",
         "category": "Обеденные столы",
-        "price": 649,
+        "price": "649&#36;",
         "description": "",
         "quantity": 3
       },
@@ -103,7 +103,7 @@
         "brand": "WETORNIX",
         "img": "img/images/obed_wide_away.png",
         "category": "Обеденные столы",
-        "price": 599,
+        "price": "599&#36;",
         "description": "",
         "quantity": 6
       },
@@ -115,7 +115,7 @@
         "brand": "WETORNIX",
         "img": "img/images/obed_default.png",
         "category": "Обеденные столы",
-        "price": 489,
+        "price": "489&#36;",
         "description": "",
         "quantity": 11
       },
@@ -127,7 +127,7 @@
         "brand": "WETORNIX",
         "img": "img/images/obed_wex.png",
         "category": "Обеденные столы",
-        "price": 679,
+        "price": "679&#36;",
         "description": "",
         "quantity": 15
       }
@@ -141,7 +141,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_meld/shelve1.png",
         "category": "Полки",
-        "price": 69,
+        "price": "69&#36;",
         "description": "",
         "quantity": 2
       },
@@ -153,7 +153,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_concentration.png",
         "category": "Полки",
-        "price": 29,
+        "price": "29&#36;",
         "description": "",
         "quantity": 19
       },
@@ -165,7 +165,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_aestetic.png",
         "category": "Полки",
-        "price": 49,
+        "price": "49&#36;",
         "description": "",
         "quantity": 9
       },
@@ -177,7 +177,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_tidebringer.png",
         "category": "Полки",
-        "price": 59,
+        "price": "59&#36;",
         "description": "",
         "quantity": 16
       },
@@ -189,7 +189,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_pragmatic.png",
         "category": "Полки",
-        "price": 79,
+        "price": "79&#36;",
         "description": "",
         "quantity": 18
       },
@@ -201,7 +201,7 @@
         "brand": "WETORNIX",
         "img": "img/images/shelve_crown.png",
         "category": "Полки",
-        "price": 69,
+        "price": "69&#36;",
         "description": "",
         "quantity": 8
       }
@@ -215,7 +215,7 @@
         "name": "Журнальный стол 'Eternity'",
         "brand": "",
         "category": "Журнальные столы",
-        "price": 149.99,
+        "price": "149.99&#36;",
         "description": "",
         "quantity": 3
       },
@@ -227,7 +227,7 @@
         "brand": "WETORNIX",
         "category": "Журнальные столы",
         "img": "img/images/table_minimalism.png",
-        "price": 179,
+        "price": "179&#36;",
         "description": "",
         "quantity": 5
       },
@@ -239,7 +239,7 @@
         "brand": "WETORNIX",
         "category": "Журнальные столы",
         "img": "img/images/table_lake.png",
-        "price": 999,
+        "price": "999&#36;",
         "description": "",
         "quantity": 1
       },
@@ -251,7 +251,7 @@
         "brand": "WETORNIX",
         "category": "Журнальные столы",
         "img": "img/images/table_circuit.png",
-        "price": 699,
+        "price": "699&#36;",
         "description": "",
         "quantity": 10
       }
@@ -265,7 +265,7 @@
         "brand": "WETORNIX",
         "img": "img/images/tabledecor_serenity.png",
         "category": "Декорированные столы",
-        "price": 899,
+        "price": "899&#36;",
         "description": "",
         "quantity": 5
       },
@@ -277,7 +277,7 @@
         "brand": "WETORNIX",
         "img": "img/images/tabledecor_pit.png",
         "category": "Декорированные столы",
-        "price": 899,
+        "price": "899&#36;",
         "description": "",
         "quantity": 3
       },
@@ -289,7 +289,7 @@
         "brand": "WETORNIX",
         "img": "img/images/tabledecor_shards.png",
         "category": "Декорированные столы",
-        "price": 599,
+        "price": "599&#36;",
         "description": "",
         "quantity": 14
       },
@@ -301,10 +301,52 @@
         "brand": "WETORNIX",
         "img": "img/images/tabledecor_black.png",
         "category": "Декорированные столы",
-        "price": 799,
+        "price": "799&#36;",
         "description": "",
         "quantity": 7
       }
     ]
-  }
+  },
+  "leaders": [
+     {"_id": "14",
+      "rating": 4.5,
+      "numReviews": 12,
+      "img": "images/coffe_table_eternity.png",
+      "name": "Журнальный стол 'Eternity'",
+      "brand": "",
+      "category": "Журнальные столы",
+      "price": "149.99&#36;",
+      "description": "",
+      "quantity": 3},
+     {"_id": "28",
+      "rating": 4.8,
+      "numReviews": 18,
+      "name": "Обеденный стол 'Comfort'",
+      "brand": "WETORNIX",
+      "img": "img/goods/dining_table_comfort.png",
+      "category": "Обеденные столы",
+      "price": "350&#36;",
+      "description": "",
+      "quantity": 3},
+    {"_id": "29",
+      "rating": 4.5,
+      "numReviews": 17,
+      "name": "Декоротивная картина 'Waves'",
+      "brand": "WETORNIX",
+      "img": "img/goods/decor_waves.png",
+      "category": "Декор",
+      "price": "139&#36;",
+      "description": "",
+      "quantity": 10},
+     {"_id": "30",
+      "rating": 4.7,
+      "numReviews": 12,
+      "name": "Зеркала 'Cosy'",
+      "brand": "WETORNIX",
+      "img": "img/goods/decor_cosy.png",
+      "category": "Декор",
+      "price": "89&#36;",
+      "description": "",
+      "quantity": 21}
+  ]
 }
